@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .text-shadow {
+	-webkit-text-stroke: 1px #52B4E0;
+	-webkit-text-fill-color: white;
+    }
+
+    .text-outline {
+        text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+        color: rgb(16 37 56);
+    }
+
+}
+.text-shadow {
+	-webkit-text-stroke: 1px #52B4E0;
+	-webkit-text-fill-color: white;
+    }
+.tab.tab-active {
+    @apply border-blue-400
+}
